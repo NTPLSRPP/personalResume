@@ -1,6 +1,8 @@
 <template>
-  <div class="flex justify-center mt-2 m-8">
-    <div class="w-1/2 card card-actions border-base-300 m-4 rounded-lg pb-8 shadow-lg">
+  <div class="flex justify-center mt-2 m-8 pb-12">
+    <div
+      class="w-1/2 card bg-base-100 border-base-300 m-4 rounded-lg pb-8 shadow-lg min-w-[410px] overflow-y-auto"
+    >
       <div class="px-10 pt-5 border-base-300">
         <p class="font-medium pb-3 underline underline-offset-8">Objective</p>
         <p>
@@ -36,8 +38,8 @@
               Ensured cross-browser compatibility and optimized performance.
             </li>
           </ul>
-          <div class="card card-bordered rounded-md mt-2">
-              <p class="p-3">Tech Stack: HTML, CSS, JavaScript, Vue.js, Git</p>
+          <div class="card card-bordered rounded-md mt-2 bg-base-200">
+            <p class="p-3">Tech Stack: HTML, CSS, JavaScript, Vue.js, Git</p>
           </div>
         </div>
         <div class="mt-3">
@@ -55,10 +57,30 @@
               smoothly.
             </li>
           </ul>
-          <div class="card card-bordered rounded-md mt-2">
-              <p class="p-3">Tech Stack: Java, Spring Boot, REST API, Docker, MySQL</p>
+          <div class="card card-bordered rounded-md mt-2 bg-base-200">
+            <p class="p-3">
+              Tech Stack: Java, Spring Boot, REST API, Docker, MySQL
+            </p>
           </div>
         </div>
+      </div>
+      <div class="divider w-[90%] ml-auto mr-auto"></div>
+      <p class="px-10 font-medium pb-3 underline underline-offset-8">Education</p>
+      <div class="mx-10 px-3 border-base-300 hover:shadow-md pb-2">
+        <a href="https://www.sit.kmutt.ac.th" target="_blank">
+          <div class="flex justify-between items-center">
+            <div class="mt-3">
+              <p class="font-medium">
+                Bachelor of Science in Information Technology
+              </p>
+              <p class="text-sm text-gray-600">
+                King Mongkut's University of Technology Thonburi (KMUTT)
+              </p>
+              <p class="text-sm text-gray-600">Aug 2022 - Present</p>
+            </div>
+            <v-icon class="" name="fa-external-link-alt" />
+          </div>
+        </a>
       </div>
     </div>
   </div>
@@ -66,4 +88,4 @@
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="css" scoped></style>

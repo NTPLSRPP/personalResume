@@ -1,5 +1,5 @@
 <template>
-  <div class="w-[48%] ml-auto mr-auto mt-2">
+  <div class="w-[48%] ml-auto mr-auto pt-24 min-w-[410px]">
     <div role="tablist" class="tabs tabs-bordered">
       <a
         role="tab"
