@@ -14,7 +14,7 @@
             <!-- <p class="font-normal text-lg ml-5 mt-2">(folk)</p>
             <p class="font-normal text-lg ml-5 ">Age: 20</p> -->
             <div class="badge badge-primary color-change-2x font-bold my-3">
-              Full Stack Developper
+              Full Stack Developer
             </div>
           </div>
         </div>
